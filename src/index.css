@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Use @layer for Tailwind utilities */
+@layer base {
+  body {
+    @apply bg-[#0a0a0a] text-white antialiased;
+  }
+}
+
+/* Custom container */
+@layer components {
+  .container-custom {
+    @apply max-w-6xl mx-auto px-6;
+  }
+}
