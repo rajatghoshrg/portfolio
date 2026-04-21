@@ -66,7 +66,7 @@ const projects = [
     title: "Stock Market Data Visualization",
     category: "data",
     description: "The objective of this project is to visualize stock market trends and volatility using different types of plots.",
-    tech: ["Python", "Pandas", "Numpy"],
+    tech: ["Python", "Pandas", "Numpy","Matplotlib"],
     image: "/images/projectimages/stock_market_logo.png", // 👈 add this
     icon: "/images/project_images/stock_market_logo.png",
     github: "https://github.com/rajatghoshrg/Stock_Market_data_visualization",

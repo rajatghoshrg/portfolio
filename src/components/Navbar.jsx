@@ -6,6 +6,7 @@ const navLinks = [
   { name: "Skills", id: "skills" },
   { name: "Projects", id: "projects" },
   { name: "Experience", id: "experience" },
+  { name: "Publications", id: "publication" }, // ✅ added
   { name: "Resume", id: "resume" },
   { name: "Contact", id: "contact" },
 ];
@@ -14,7 +15,6 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [active, setActive] = useState("home");
 
-  // Active link on scroll
   useEffect(() => {
     const handleScroll = () => {
       navLinks.forEach((link) => {
@@ -29,12 +29,11 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // run once on load
+    handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Scroll to section
   const handleScrollTo = (id) => {
     const section = document.getElementById(id);
     if (section) {

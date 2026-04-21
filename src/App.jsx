@@ -6,6 +6,7 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
+import Publication from "./sections/Publication";
 import Resume from "./sections/Resume";
 import Contact from "./sections/Contact";
 
@@ -14,7 +15,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <div className="scroll-smooth">
-    <Navbar />
+      <Navbar />
 
       {/* Hero */}
       <section id="home" className="pt-20">
@@ -39,6 +40,10 @@ const App = () => {
       {/* Experience */}
       <section id="experience" className="py-20">
         <Experience />
+      </section>
+
+      <section id="publication">
+        <Publication />
       </section>
 
       {/* Resume */}
