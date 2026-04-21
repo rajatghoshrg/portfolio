@@ -6,7 +6,7 @@ const navLinks = [
   { name: "Skills", id: "skills" },
   { name: "Projects", id: "projects" },
   { name: "Experience", id: "experience" },
-  { name: "Publications", id: "publication" }, // ✅ added
+  { name: "Publications", id: "publication" },
   { name: "Resume", id: "resume" },
   { name: "Contact", id: "contact" },
 ];
@@ -51,7 +51,7 @@ const Navbar = () => {
           onClick={() => handleScrollTo("home")}
           className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 text-transparent bg-clip-text cursor-pointer"
         >
-          Rajat
+          Rajat Ghosh
         </h1>
 
         {/* Desktop Menu */}
