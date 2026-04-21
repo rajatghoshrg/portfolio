@@ -6,7 +6,7 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
-import Publication from "./sections/Publication";
+import Publication from "./sections/publication";
 import Resume from "./sections/Resume";
 import Contact from "./sections/Contact";
 
