@@ -72,7 +72,7 @@ const ProjectCard = ({ project }) => {
               </a>
             )}
 
-            {/* {project.video && (
+            {project.video && (
               <a
                 href={project.video}
                 target="_blank"
@@ -81,7 +81,7 @@ const ProjectCard = ({ project }) => {
               >
                 Video
               </a>
-            )} */}
+            )}
           </div>
         </div>
 
