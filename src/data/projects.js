@@ -1,10 +1,21 @@
 const projects = [
   {
+    title: "Mr. Breado",
+    category: "web",
+    description: "Mr. Breado, a food delivery web application using React.js, focusing on a clean, responsive UI and seamless user experience. Collaborated in a team environment to implement component-based architecture and deliver an efficient, user-friendly frontend.",
+    tech: ["React"],
+    image: "/images/project_images/mr_breado.png", 
+    icon: "/images/project_images/mrbreado_logo.avif",
+    github: "https://github.com/rajatghoshrg/Mr-Breado",
+    live: "https://mrbreado.vercel.app/",
+    // video: "#",
+  },
+  {
     title: "Pet-Pujo-Adda",
     category: "web",
     description: "PetPujo Adda is a modern restaurant web application designed to deliver a seamless and engaging digital dining experience. It features a user-friendly interface that allows users to explore menus, view offerings, and interact with the platform effortlessly.",
     tech: ["React"],
-    image: "/images/project_images/pet_pujo_adda.png", // 👈 add this
+    image: "/images/project_images/pet_pujo_adda.png", 
     icon: "/images/project_images/pet_pujo_logo.png",
     github: "https://github.com/rajatghoshrg/restaurant-app",
     live: "https://restaurant-app-rg.vercel.app/",
@@ -15,7 +26,7 @@ const projects = [
     category: "web",
     description: "A responsive BMI Calculator web app that helps users assess their health by calculating Body Mass Index and categorizing results with a simple and user-friendly interface.",
     tech: ["Python", "Flask", "HTML5", "CSS3"],
-    image: "/images/project_images/bmi_calculator.png", // 👈 add this
+    image: "/images/project_images/bmi_calculator.png", 
     icon: "/images/project_images/bmi_logo.png",
     github: "https://github.com/rajatghoshrg/BMI-Calculator",
     // video: "#",
@@ -25,7 +36,7 @@ const projects = [
     category: "data",
     description: "This project explores and analyzes a large Netflix-style dataset using Python and Pandas. The goal is to uncover meaningful insights about content distribution, growth trends, genres, and director dominance.",
     tech: ["Python", "Pandas", "Numpy"],
-    image: "/images/project_images/netflix_p.jpeg", // 👈 add this
+    image: "/images/project_images/netflix_p.jpeg", 
     icon: "/images/project_images/netflix_logo.png",
     github: "https://github.com/rajatghoshrg/Netflix-Data-Analysis",
   },
@@ -34,7 +45,7 @@ const projects = [
     category: "data",
     description: "A Python-based project using NumPy to simulate 100 dice rolls and analyze outcomes by evaluating frequency distribution, calculating experimental probability, and assessing the fairness of the dice.",
     tech: ["Python", "NumPy"],
-    image: "/images/project_images/dice_p.jpeg", // 👈 add this
+    image: "/images/project_images/dice_p.jpeg", 
     icon: "/images/project_images/dice_logo.png",
     github: "https://github.com/rajatghoshrg/Dice-Roll-Simulator",
   },
@@ -43,7 +54,7 @@ const projects = [
     category: "data",
     description: "A NumPy-based data analysis project that processes weekly temperature data, performs unit conversion, identifies extremes, and analyzes trends and deviations.",
     tech: ["Python", "NumPy"],
-    image: "/images/project_images/weather_p.jpeg", // 👈 add this
+    image: "/images/project_images/weather_p.jpeg", 
     icon: "/images/project_images/weather_logo.png",
     github: "https://github.com/rajatghoshrg/Weather-Analyzer",
   },
@@ -52,7 +63,7 @@ const projects = [
     category: "data",
     description: "This project performs exploratory data analysis on IPL 2025 match data using Python and Pandas. The goal is to extract meaningful insights about player performance, team dominance, and venue impact.",
     tech: ["Python", "Pandas", "Numpy"],
-    image: "/images/project_images/ipl_p.jpeg", // 👈 add this
+    image: "/images/project_images/ipl_p.jpeg", // 
     icon: "/images/project_images/ipl_logo.png",
     github: "https://github.com/rajatghoshrg/IPL-Stats-Analysis",
   },
@@ -61,7 +72,7 @@ const projects = [
     category: "data",
     description: "The objective of this project is to visualize stock market trends and volatility using different types of plots.",
     tech: ["Python", "Pandas", "Numpy","Matplotlib"],
-    image: "/images/project_images/stockmarket_p.jpeg", // 👈 add this
+    image: "/images/project_images/stockmarket_p.jpeg", 
     icon: "/images/project_images/stock_market_logo.png",
     github: "https://github.com/rajatghoshrg/Stock_Market_data_visualization",
   },
@@ -70,7 +81,7 @@ const projects = [
     category: "mini",
     description: "The Hidden Treasure is a terminal-based adventure game built using Python. Dive into an immersive text-based experience where your choices decide your fate. Explore mysterious paths, unlock secrets, and find the hidden treasure... if you dare!",
     tech: ["Python"],
-    image: "/images/project_images/hidden_tre_mini.png", // 👈 add this
+    image: "/images/project_images/hidden_tre_mini.png", 
     icon: "/images/project_images/hid_tres_logo.png",
     github: "https://github.com/rajatghoshrg/The_Hidden_Treasure-game-",
     video: "https://www.linkedin.com/posts/rajat-ghosh-8b3bb9320_python-game-pythonproject-activity-7342916265335754752-AHWr?utm_source=share&utm_medium=member_android&rcm=ACoAAFFWAMcBt03H59yM202u-I2W92eQyo4_lcs",
@@ -80,16 +91,17 @@ const projects = [
     category: "mini",
     description: "A fun Python terminal game where the player tries to guess the correct number randomly chosen by the computer!",
     tech: ["Python"],
-    image: "/images/project_images/number_guess_mini.png", // 👈 add this
+    image: "/images/project_images/number_guess_mini.png", 
     icon: "/images/project_images/number_guess_logo.png",
     github: "https://github.com/rajatghoshrg/The_Number_Guess_Game",
+    video:"https://www.linkedin.com/posts/rajat-ghosh-8b3bb9320_python-game-pythonproject-activity-7342916265335754752-AHWr?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFFWAMcBt03H59yM202u-I2W92eQyo4_lcs"
   },
    {
     title: "Simple Calculator",
     category: "mini",
     description: "A basic and stylish calculator built using HTML, CSS, and JavaScript, designed to perform standard arithmetic operations.",
     tech: ["HTML", "CSS", "JavaScript"],
-    image: "/images/project_images/simple_calculator_mini.png", // 👈 add this
+    image: "/images/project_images/simple_calculator_mini.png", 
     icon: "/images/project_images/calculator_logo.png",
     github: "https://github.com/rajatghoshrg/Simple_Calculator",
   },
